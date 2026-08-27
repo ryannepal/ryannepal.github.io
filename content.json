@@ -99,14 +99,14 @@
       "galleryMaxWidth": "820px",
       "photos": [
         {
-          "placeholder": "Engineering drawing — to be added",
-          "caption": "TODO: add the dimensioned drawing of the adapter",
-          "crop": "4/3"
+          "file": "supermileage-adapter-cad-full.png",
+          "caption": "CAD model of aluminum adapter",
+          "alt": "CAD model of the aluminum fuel system adapter"
         },
         {
-          "placeholder": "CAD model — to be added",
-          "caption": "TODO: add the SolidWorks model or an isometric render",
-          "crop": "4/3"
+          "file": "supermileage-adapter-cad-section.png",
+          "caption": "Section view",
+          "alt": "Section view of the CAD model of the aluminum fuel system adapter"
         },
         {
           "file": "supermileage-print-pressure-side.jpg",
