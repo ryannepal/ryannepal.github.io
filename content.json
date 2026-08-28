@@ -61,7 +61,7 @@
 
       "stats": [
         { "figure": "414", "label": "MPG in competition", "note": "Shell Eco-marathon, Indianapolis Motor Speedway" },
-        { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
+        { "figure": "89%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
         { "figure": "40/50", "label": "PSI held after 48 hours", "note": "charged to 50 psi, 10 psi lost over two days" },
         { "figure": "FEA", "label": "Validated in ANSYS", "note": "pressure and stress analysis before cutting metal" }
       ],
