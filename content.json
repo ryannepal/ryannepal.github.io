@@ -49,7 +49,7 @@
       "_note": "PROJECT 1. To add a new project, copy the TEMPLATE block at the bottom of this list.",
       "id": "supermileage-fuel-system",
       "title": "Fuel Delivery System",
-      "blurb": "A pressure-fed fuel system: 50 psi from a 2 L PET charge bottle pressurises the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 42 g. Validated in Ansys, machined with the University's CNC, then pressure-tested. The car ran 414 mpg at the Indianapolis Motor Speedway, and beat the previous year's 0 mpg.",
+      "blurb": "A pressure-fed fuel system: 50 psi from a 2 L PET charge bottle pressurizes the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 42 g. Validated in Ansys, machined with the University's CNC, then pressure-tested. The car ran 414 mpg at the Indianapolis Motor Speedway, and beat the previous year's 0 mpg.",
       "date": "September 2025 — Present",
       "setting": "UMass Supermileage Vehicle Team",
       "role": "Fuel System Lead",
@@ -69,20 +69,20 @@
       "specs": [
         { "label": "Competition", "value": "Shell Eco-marathon, Indianapolis Motor Speedway" },
         { "label": "Architecture", "value": "Pressurised air → fuel reservoir → port injection" },
-        { "label": "Adapter", "value": "Aluminium, CNC-machined from stock, hand-tapped NPT" }
+        { "label": "Adapter", "value": "Aluminum, CNC-machined from stock, hand-tapped NPT" }
       ],
 
       "problem": [
         "A supermileage vehicle only wins on efficiency, so every gram of unnecessary structure and every milliliter of poorly delivered fuel shows up in the final mileage number.",
         "The system I inherited worked against both. It carried too many points of failure: it was cracked, it leaked at multiple interfaces, and at 3.2 lb, it was heavy for what it actually had to do: hold pressurized air and hand it to the fuel reservoir."
       ],
-      "roleDetail": "Fuel System Lead. I own the design and optimisation of the fuel delivery system, coordinate with the wider Engine Sub-team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
+      "roleDetail": "Fuel System Lead. I own the design and optimization of the fuel delivery system, coordinate with the wider Engine Sub-team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
       "approach": [
         "Traced the previous design's failures back to interface count and material choice. Every additional joint was a leak path and made the assembly heavy.",
-        "Reduced the pressure side to two parts: a 2 L PET bottle as the air charge vessel, and a single custom aluminium adapter that carries the NPT hose connection into the circuit that pressurizes the fuel reservoir.",
+        "Reduced the pressure side to two parts: a 2 L PET bottle as the air charge vessel, and a single custom aluminum adapter that carries the NPT hose connection into the circuit that pressurizes the fuel reservoir.",
         "Chose the bottle deliberately and not as a shortcut: at 42 g, it's a mass-produced pressure vessel that's already rated for carbonated pressure. This removed the weight and most of the interfaces in one move.",
         "Modeled the adapter in CAD, validated it in Ansys under pressure and stress, and 3D printed for fitment before cutting any metal.",
-        "Programmed the toolpaths and CNC-machined the adapter from stock aluminium. Then, deburred and verified fitment.",
+        "Programmed the toolpaths and CNC-machined the adapter from stock aluminum. Then, deburred and verified fitment.",
         "Pressure-tested the assembly by charging the bottle to 50 psi, and tracking the leak over two days.",
         "Applied CAD and FEA across the wider fuel delivery system. Improved combustion efficiency and structural integrity; while trimming mass."
       ],
