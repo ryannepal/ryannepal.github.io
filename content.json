@@ -78,18 +78,18 @@
       ],
       "roleDetail": "Fuel System Lead. I own the design and optimisation of the fuel delivery system, coordinate with the wider Engine Sub-team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
       "approach": [
-        "Traced the previous design's failures back to interface count and material choice — every additional joint was a leak path, and carrying them safely was what made the assembly heavy.",
-        "Reduced the pressure side to two parts: a 2 L PET bottle as the air charge vessel, and a single custom aluminium adapter carrying the NPT hose connection into the circuit that pressurises the fuel reservoir.",
-        "Chose the bottle deliberately, not as a shortcut: at 42 g it is a mass-produced pressure vessel already qualified for carbonation pressure, which removed both the weight and most of the interfaces in one move.",
+        "Traced the previous design's failures back to interface count and material choice. Every additional joint was a leak path and made the assembly heavy.",
+        "Reduced the pressure side to two parts: a 2 L PET bottle as the air charge vessel, and a single custom aluminium adapter that carries the NPT hose connection into the circuit that pressurizes the fuel reservoir.",
+        "Chose the bottle deliberately and not as a shortcut: at 42 g, it's a mass-produced pressure vessel that's already rated for carbonated pressure. This removed the weight and most of the interfaces in one move.",
         "Modeled the adapter in CAD, validated it in Ansys under pressure and stress, and 3D printed for fitment before cutting any metal.",
-        "Programmed the toolpaths and CNC-machined the adapter from stock aluminium, then deburred and verified fitment.",
-        "Pressure-tested the assembly by charging the bottle to 50 psi and tracking the leak over two days.",
-        "Applied CAD and FEA across the wider fuel delivery system to improve combustion efficiency and structural integrity while trimming mass."
+        "Programmed the toolpaths and CNC-machined the adapter from stock aluminium. Then, deburred and verified fitment.",
+        "Pressure-tested the assembly by charging the bottle to 50 psi, and tracking the leak over two days.",
+        "Applied CAD and FEA across the wider fuel delivery system. Improved combustion efficiency and structural integrity; while trimming mass."
       ],
       "results": [
-        "Cut pressure vessel mass by 89.8% — from a 3.2 lb (1,450 g) assembly to a 42 g PET charge bottle and a 106 g adapter.",
-        "Held 40 of 50 psi after 48 hours, against a previous design that leaked at multiple interfaces.",
-        "Removed the crack and multi-interface leak paths by cutting part count rather than adding sealing.",
+        "Cut pressure vessel mass by 89.8%. Went from a 3.2 lb (1,450 g) assembly, to a 42 g PET charge bottle and a 106 g adapter.",
+        "Held 40 of 50 psi after 48 hours, against the previous design that leaked at multiple interfaces.",
+        "Removed the crack and multi-interface leak paths by cutting part count instead of just adding sealing.",
         "Cost less in material and machining time than the assembly it replaced, and was faster to build.",
         "Vehicle achieved 414 mpg in competition at the Shell Eco-marathon."
       ],
