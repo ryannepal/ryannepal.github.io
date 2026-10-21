@@ -423,7 +423,6 @@
         "Autodesk Inventor",
         { "name": "Fusion", "note": "CAM prep for CNC; sizing, selection, toolpaths" },
         "AutoCAD",
-        "Revit",
         { "name": "GD&T", "note": "tolerance-driven dimensioning" },
         { "name": "DFMA", "note": "fewer parts, simpler assembly" },
         "CAD / 3D modelling"
